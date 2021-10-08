@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sessionStorage</title>
+</head>
+<body>
+<h2>sessionStorage</h2>
+<button onclick="saveData()">点我保存一个数据</button>
+<button onclick="readData()">点我读取一个数据</button>
+<button onclick="deleteData()">点我删除一个数据</button>
+<button onclick="removeAllData()">清空所有数据</button>
+</body>
+<script type="text/javascript">
+    function saveData(){
+        sessionStorage.setItem('msg1', 'panyue,hello');
+        //对象转换为字符串
+        sessionStorage.setItem('msg2',JSON.stringify({
+            name: 'panyue',
+            age: '21',
+            school: 'wust(WuHan)'
+        }))
+    }
+
+    function readData(){
+        console.log(sessionStorage.getItem('msg1'))
+        console.log(JSON.parse(sessionStorage.getItem('msg2')));
+        console.log(sessionStorage.getItem('text')); //读不出来就是null Json.parse(null)仍然是null注意
+    }
+
+    function deleteData(){
+        sessionStorage.removeItem('msg2');
+    }
+
+    function removeAllData(){
+        sessionStorage.clear();
+    }
+</script>
+</html>
