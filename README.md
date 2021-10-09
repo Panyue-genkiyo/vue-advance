@@ -295,10 +295,10 @@
          2. v-leave-active：离开过程中
          3. v-leave-to：离开的终点
 
-   2. 使用```<transition>```包裹要过度的元素，并配置name属性：
+   2. 使用```<transition>```包裹要过度的元素，并配置name属性,注意如果配置了appear属性的话就代表一开始挂载真实dom的时候就开启动画的效果：
 
       ```vue
-      <transition name="hello">
+      <transition name="hello" appear>
       	<h1 v-show="isShow">你好啊！</h1>
       </transition>
       ```
