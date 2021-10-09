@@ -6698,6 +6698,11 @@
     "randombytes" "^2.0.1"
     "safe-buffer" "^5.1.2"
 
+"pubsub-js@^1.9.3":
+  "integrity" "sha1-Z07qTVaNBALgUnzbEOKqt7VWIdI="
+  "resolved" "https://registry.npm.taobao.org/pubsub-js/download/pubsub-js-1.9.3.tgz?cache=0&sync_timestamp=1617973352555&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpubsub-js%2Fdownload%2Fpubsub-js-1.9.3.tgz"
+  "version" "1.9.3"
+
 "pump@^2.0.0":
   "integrity" "sha1-Ejma3W5M91Jtlzy8i1zi4pCLOQk="
   "resolved" "https://registry.npm.taobao.org/pump/download/pump-2.0.1.tgz"
