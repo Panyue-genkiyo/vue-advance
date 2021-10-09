@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "core-js": "^3.6.5",
     "nanoid": "^3.1.25",
     "pubsub-js": "^1.9.3",

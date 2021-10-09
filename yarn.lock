@@ -1615,6 +1615,11 @@
   "resolved" "https://registry.nlark.com/alphanum-sort/download/alphanum-sort-1.0.2.tgz"
   "version" "1.0.2"
 
+"animate.css@^4.1.1":
+  "integrity" "sha1-YU7FqBEx1+TcNipYFD90BqvWgHU="
+  "resolved" "https://registry.npm.taobao.org/animate.css/download/animate.css-4.1.1.tgz"
+  "version" "4.1.1"
+
 "ansi-colors@^3.0.0":
   "integrity" "sha1-46PaS/uubIapwoViXeEkojQCb78="
   "resolved" "https://registry.npm.taobao.org/ansi-colors/download/ansi-colors-3.2.4.tgz"
