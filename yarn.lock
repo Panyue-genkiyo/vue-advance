@@ -8525,10 +8525,15 @@
   "resolved" "https://registry.nlark.com/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2 || ^3.0.0-0", "vue@^2.6.11":
+"vue@^2 || ^3.0.0-0", "vue@^2.0.0", "vue@^2.6.11":
   "integrity" "sha1-5RqlJQJQ1Wmj+606ilpofWA24jU="
   "resolved" "https://registry.nlark.com/vue/download/vue-2.6.14.tgz?cache=0&sync_timestamp=1631890569199&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue%2Fdownload%2Fvue-2.6.14.tgz"
   "version" "2.6.14"
+
+"vuex@^3.6.2":
+  "integrity" "sha1-I2vAhqhww655lG8QfxbeWdWJXnE="
+  "resolved" "https://registry.nlark.com/vuex/download/vuex-3.6.2.tgz"
+  "version" "3.6.2"
 
 "watchpack-chokidar2@^2.0.1":
   "integrity" "sha1-OFAAcu5uzmbzdpk2lQ6hdxvhyVc="
