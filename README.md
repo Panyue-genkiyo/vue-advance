@@ -941,3 +941,32 @@ module.exports = {
 1. 作用：控制路由跳转时操作浏览器历史记录的模式
 2. 浏览器的历史记录有两种写入方式：分别为```push```和```replace```，```push```是追加历史记录，```replace```是替换当前记录。路由跳转时候默认为```push```
 3. 如何开启```replace```模式：```<router-link replace .......>News</router-link>```
+
+
+### 9.编程式路由导航
+
+1. 作用：不借助```<router-link> ```实现路由跳转，让路由跳转更加灵活
+
+2. 具体编码：
+
+   ```js
+   //$router的两个API
+   this.$router.push({
+   	name:'xiangqing',
+   		params:{
+   			id:xxx,
+   			title:xxx
+   		}
+   })
+   
+   this.$router.replace({
+   	name:'xiangqing',
+   		params:{
+   			id:xxx,
+   			title:xxx
+   		}
+   })
+   this.$router.forward() //前进
+   this.$router.back() //后退
+   this.$router.go() //可前进也可后退 参数是number类型(正数为前进的步数,负数为后退的部署)
+   ```
